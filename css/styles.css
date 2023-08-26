@@ -80,8 +80,11 @@ button {
 /* ========== /COMMON STYLES ======= */
 
 /* PAGE HEADER */
+
+
+
 .page-header{
-    width: 1440px;
+    width: 1158px;
     height: 72px;
     border-bottom: 1px solid #e7e9fc
 }
@@ -91,8 +94,7 @@ button {
 }
 .page-header-container{
     display: flex;
-    justify-content: space-between;
-
+    align-items: center;
 }
 
 .page-navigetion{
@@ -115,6 +117,7 @@ button {
     color: var(--primary-logo-color);
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px;
 }
 
 
@@ -146,11 +149,14 @@ button {
 
 .contact-link{
     display: flex;
-    column-gap: 40px;
-}
-.contact-link-iten{
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.contact-link-iten{
+
     display: flex;
         font-size: 16px;
         line-height: 1.5;
@@ -207,7 +213,7 @@ button {
         letter-spacing: 0.04em;
         cursor: pointer;
         width: 100%;
-        max-width: 169px;
+        min-width: 169px;
         padding-left: 32px;
         padding-right: 32px;
         padding-top: 16px;
