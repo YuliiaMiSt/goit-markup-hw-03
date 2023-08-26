@@ -81,13 +81,13 @@ button {
 
 /* PAGE HEADER */
 .page-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    align-items: center;
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .navigetion{
-    align-items: center;
+    justify-content: flex-end;
 }
 .page-header-container{
     display: flex;
@@ -97,11 +97,10 @@ button {
 
 .page-navigetion{
     display: flex;
-    align-items: center;
     justify-content:space-between;
     width: 100%;
-    max-width: 467px;
-    column-gap: 76px;
+    max-width: 496px;
+    margin-right: 76px;
 }
 
 
@@ -114,6 +113,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-logo-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -123,8 +124,12 @@ button {
 
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
+
 
 .menu-link {
     color: var(--secondary-text-color);
@@ -144,9 +149,10 @@ button {
     column-gap: 40px;
 }
 .contact-link-iten{
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
         font-size: 16px;
-      
         line-height: 1.5;
         letter-spacing: 0.32px;
         color: var(--primery-color);
@@ -371,6 +377,8 @@ color: var(--porfolio-btn-text);
     letter-spacing: 0.04em;
     cursor:pointer;
     background-color: var(--portfolio-btn-bg);
+    border-radius: 4px;
+    border: 1px solid #E7E9FC
 
 }
 .portfolio-btn:hover,
@@ -381,7 +389,7 @@ color: var(--porfolio-btn-text);
 
 .portfolio-button{
     display: flex;
-justify-content: center;
+    justify-content: center;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 24px;
@@ -389,29 +397,14 @@ justify-content: center;
     gap: 24px;
     margin-top: 48px;
     margin-bottom: 72px;
+    
 }
 
 
 /*=========== /HERO PORTFOLIO ==========*/
 
 /*=========== MOBILE APPLICATIONS ==========*/
-.mobile-applications-title{
 
-
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--secondary-text-color);
-}
-
-.mobile-applications-text{
-
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--primery-color);
-}
 
 .mobile-applications-list{
     justify-content: center;
@@ -420,12 +413,40 @@ justify-content: center;
 
 }
 
+.mobile-applications-iten{
+    border: 1px solid #E7E9FC;
+    background: var(--primary-bg-color);
+
+}
+
 .mobile-applications-img{
     margin-bottom: 32px;
 }
+
 .mobile-applications-title{
+
+    margin-top: 32px;    
     margin-bottom: 8px;
+        padding-left: 16px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+
+
 }
+.mobile-applications-text{
+
+    padding-left: 16px;
+    margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--primery-color);
+}
+
+
 /*=========== /MOBILE APPLICATIONS ==========*/
 
         /*========== FOOTER =========*/
