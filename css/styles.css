@@ -413,7 +413,15 @@ button {
 
                 }
 /*=========== HERO POTFOLIO ==========*/
+
+.portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+
 .portfolio-btn{
+    
 color: var(--porfolio-btn-text);
 
     font-family: var(--primary-font-famaly);
@@ -428,6 +436,8 @@ color: var(--porfolio-btn-text);
     border: 1px solid #E7E9FC
 
 }
+
+
 .portfolio-btn:hover,
 .portfolio-btn:focus{
     background-color: var(--accent-color);
@@ -435,10 +445,13 @@ color: var(--porfolio-btn-text);
     border: 1px solid transparent
 }
 
+.portfolio-btn{
+    padding: 12px 24px;
+}
+
 .portfolio-button{
     display: flex;
     justify-content: center;
-    padding: 12px 24px;
     gap: 24px;
     margin-top: 48px;
     margin-bottom: 72px;
@@ -455,14 +468,13 @@ color: var(--porfolio-btn-text);
     display: flex;
     justify-content: center;
     align-items: center;
-width: calc((100% - 48px) / 3);
     gap: 48px 24px;
 
 }
 
 .mobile-applications-iten{
     background: var(--primary-bg-color);
-
+    width: calc((100% - 48px) / 3);
 }
 
 
@@ -481,6 +493,12 @@ width: calc((100% - 48px) / 3);
         letter-spacing: 0.02em;
         color: var(--secondary-text-color);
 
+}
+
+.mobile-applications-img{
+display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .mobile-applications-text{
