@@ -89,25 +89,27 @@ button {
     border-bottom: 1px solid #e7e9fc
 }
 
-.navigetion{
-    justify-content: flex-end;
-}
+
 .page-header-container{
     display: flex;
     align-items: center;
+    justify-content: center;
+    
 }
 
 .page-navigetion{
     display: flex;
+    align-items: center;
     justify-content:space-between;
     width: 100%;
     max-width: 496px;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
 .logotype {
-    display: flex;
     font-family: var(--logo-font-famaly);
     font-size: 18px;
     font-weight: 800;
@@ -115,8 +117,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-logo-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     margin-right: 76px;
 }
 
@@ -130,8 +131,10 @@ button {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 166px;
 
 }
+
 
 
 .menu-link {
@@ -147,6 +150,14 @@ button {
     color: var(--accent-color);
 }
 
+.navigetion{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 166px;
+
+}
 .contact-link{
     display: flex;
     align-items: center;
@@ -155,7 +166,10 @@ button {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.contact-link-iten{
+
+
+
+.contact{
 
     display: flex;
         font-size: 16px;
@@ -164,8 +178,8 @@ button {
         color: var(--primery-color);
 }
 
-.contact-link-iten:hover,
-.contact-link-iten:focus{
+.contact:hover,
+.contact:focus{
     color:var(--accent-color);
 }
 
@@ -178,10 +192,9 @@ button {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 1440px;
-      height: 600px;
       padding-top: 188px;
       padding-bottom: 188px;
+
   }
  
   .main-title{
@@ -201,8 +214,7 @@ button {
 
   .order-servis {
   
-    display: block;
-
+    display: block;;
         font-family: var(--primary-font-famaly);
         font-size: 16px;
         font-weight: 500;
