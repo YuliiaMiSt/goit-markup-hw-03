@@ -180,15 +180,13 @@ button {
       align-items: center;
       width: 1440px;
       height: 600px;
-
-
+      padding-top: 188px;
+      padding-bottom: 188px;
   }
  
-
   .main-title{
 
       text-align: center;
-
       font-size: 56px;
       line-height: 1.07;
       letter-spacing: 0.02em;
@@ -196,14 +194,14 @@ button {
       flex-wrap: wrap;
       width: 100%;
       max-width: 496px;
-      padding-top: 188px;
       margin-bottom: 24px;
 
 
   }
 
   .order-servis {
-    color:var(--light-text-color);
+  
+    display: block;
 
         font-family: var(--primary-font-famaly);
         font-size: 16px;
@@ -212,13 +210,13 @@ button {
       background-color: var(--bg-button-color);
         letter-spacing: 0.04em;
         cursor: pointer;
-        width: 100%;
         min-width: 169px;
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        margin-top: 24px;
+        height: 56px;
+        padding: 16px 32px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border: none;
+        border-radius: 4px;
+        color:var(--light-text-color);
 
 
         
